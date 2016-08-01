@@ -12,5 +12,7 @@ cd $FOAM_RUN/smallPoolFire2D
 # run the fireFoam simulation
 ./Allrun &
 
+sleep 5
+
 # view the log file to check the progress of the simulation 
 tail -f log.fireFoam
